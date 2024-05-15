@@ -1,0 +1,10 @@
+fastapi
+gunicorn
+uvicorn==0.15.0
+pydantic
+langchain
+openai
+pandas
+openpyxl
+tabulate
+langchain_experimental
