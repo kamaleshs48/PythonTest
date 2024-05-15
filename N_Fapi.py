@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = OPEN_API_KEY
 app = FastAPI()
 
 # Load the API key from environment or a secure location
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = OPEN_API_KEY
 if not api_key:
     raise EnvironmentError("OPENAI_API_KEY not set in the environment")
 
